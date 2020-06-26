@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <h1>Calculator</h1>
+        </div>
+        <div>
+            <input id="result" style="background-color: #c9c6c6" class="result" type="text">
+        </div>
+        <div>
+            <button class="clearBtn" style="background-color: #c9c6c6" onclick="clearResult()">C</button>
+            <button class="btn" style="background-color: red" onclick="getBack('Del')">Del</button>
+            <button class="btn" style="background-color: skyblue" onclick="getSqrt('sqrt')">√ </button>
+            <button class="btn" style="background-color: skyblue" onclick="getSqr('sqr')">sqr</button>
+
+        </div>
+        <div>
+            <button class="btn" style="background-color: lightgreen" onclick="getE('e')">e</button>
+            <button class="btn" style="background-color: lightgreen" onclick="getNumber('(')">(</button>
+            <button class="btn" style="background-color: lightgreen" onclick="getNumber(')')">)</button>
+            <button class="btn" style="background-color: lightgreen" onclick="getLog('log')">log</button>
+        </div>
+        <div>
+            <button class="btn" style="background-color: yellow" onclick="getCos('cos')">cos</button>
+            <button class="btn" style="background-color: yellow" onclick="getSin('sin')">sin</button>
+            <button class="btn" style="background-color: yellow" onclick="getTan('tan')">tan</button>
+            <button class="btn" style="background-color: orange" onclick="getPer('%')">%</button>
+        </div>
+        <div>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('7')">7</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('8')">8</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('9')">9</button>
+            <button class="btn" style="background-color: orange" onclick="getNumber('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('4')">4</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('5')">5</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('6')">6</button>
+            <button class="btn" style="background-color: orange" onclick="getNumber('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('1')">1</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('2')">2</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('3')">3</button>
+            <button class="btn" style="background-color: orange" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('0')">0</button>
+            <button class="btn" style="background-color: #c9c6c6" onclick="getNumber('.')">.</button>
+            <button class="btn" style="background-color: #807f80" onclick="getResult('=')">=</button>
+            <button class="btn" style="background-color: orange" onclick="getNumber('+')">+</button>
+        </div>
+
+        
+
+    </div>
+
+    <div class="design">
+        <p>Designed & Developed By: <a href="https://github.com/umaryousaf/">Muhammad Umar</b></p>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
